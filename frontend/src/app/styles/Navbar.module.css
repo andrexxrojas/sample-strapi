@@ -1,0 +1,21 @@
+.nav-bar {
+    font-family: var(--font-medium), sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-bar a {
+    color: #D9D9D9;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #0A0A0A;
+}
+
+.nav-bar a.active {
+    color: #0A0A0A;
+}

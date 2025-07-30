@@ -1,0 +1,87 @@
+.login-page-wrapper {
+    border: 1px solid red;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10rem);
+}
+
+.login-container {
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    box-sizing: border-box;
+}
+
+.form-title {
+    font-family: var(--font-medium), sans-serif;
+    font-size: clamp(1.125rem, 2vw, 1.25rem);
+    margin: 0 0 0.2rem 0;
+}
+
+.form-subtitle {
+    font-family: var(--font-medium), sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    color: #c2c2c2;
+    margin: 0 0 1.5rem 0;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+    background-color: #f5f5f5;
+    font-family: var(--font-regular), sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    padding: 0.5rem 0.8rem;
+}
+
+.login-btn {
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    font-family: var(--font-medium), sans-serif;
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.signup-text {
+    margin-top: 1rem;
+    font-family: var(--font-regular), sans-serif;
+    font-size: clamp(0.75rem, 1.2vw, 0.75rem);
+    color: #c2c2c2;
+    text-align: center;
+}
+
+.signup-link {
+    color: #0A0A0A;
+    font-weight: 500;
+    text-decoration: none;
+}
